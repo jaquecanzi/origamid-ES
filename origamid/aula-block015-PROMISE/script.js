@@ -36,3 +36,5 @@ const dados = new Promise((resolve) => {
 })
 
 const carregouTudo = Promise.all([login, dados])
+
+console.log(carregouTudo);
